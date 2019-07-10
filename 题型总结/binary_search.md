@@ -26,8 +26,8 @@ public int partition(int[] nums, int start, int end) {
 }
 ```
   
-##Arrays.binarySearch  
+## Arrays.binarySearch  
 ⑴.binarySearch(object[ ], object key);
 
-如果key在数组中，则返回搜索值的索引；否则返回-1或者”-“(插入点)。插入点是索引键将要插入数组的那一点，即第一个大于该键的元素索引。  
+如果key在数组中，则返回搜索值的索引；否则返回-1或者”-“(插入点 = index + 1)。插入点是索引键将要插入数组的那一点，即第一个大于该键的元素索引。  
 如果要搜索的元素key在指定的范围内，则返回搜索键的索引；否则返回-1或者”-“(插入点)。
